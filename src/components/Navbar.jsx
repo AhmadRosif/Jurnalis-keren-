@@ -21,7 +21,8 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div class="logo">
+          <a className="nav .logo img" href="#home" aria-label="Home">
+            <div class="logo">
           <a href="#">
           <img src="../assets/images/trns.png" alt="logo">
               </div>
