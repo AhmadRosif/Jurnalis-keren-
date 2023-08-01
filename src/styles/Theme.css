@@ -52,8 +52,10 @@ html {
 
 /* Navbar */
 
-.navbar-link {
-  @apply text-white lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2;
+.nav .logo img {
+  width: 250px;
+  margin-left: 20px;
+  opacity: 100;
 }
 
 /* Preventing FOUC */
