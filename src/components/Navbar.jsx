@@ -23,8 +23,8 @@ export const Navbar = () => {
         >
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="w-full font-extrabold text-2xl md:text-4xl bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
-                <img src={require("../assets/images/trns.png")} alt="" />
+              <div className="w-full font-extrabold text-2x1 md:text-4x1 bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+               <img src=[require("../assets/images/trns.png")} alt="" />
               </div>
             </div>
           </a>
