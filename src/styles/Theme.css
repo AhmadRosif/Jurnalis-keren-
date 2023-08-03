@@ -52,11 +52,6 @@ html {
 
 /* Navbar */
 
-.nav .logo img {
-  width: 250px;
-  margin-left: 20px;
-  opacity: 100;
-}
 
 /* Preventing FOUC */
 @font-face {
