@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {InvitationModal} from "./InvitationModal.jsx";
+import logo from "../assets/images/trns.png";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
