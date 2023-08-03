@@ -25,6 +25,7 @@ export const Navbar = () => {
           <a className="w-10 " href="#home" aria-label="Home">
             <div className="logo">
               <img src={logo} alt="logo" className="w-52" />
+              </div>
             </div>
           </a>
         </motion.div>
