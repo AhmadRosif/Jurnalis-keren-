@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { InvitationModal } from "./InvitationModal.jsx";
-import logo from "../assets/images/trns.png";
+import {InvitationModal} from "./InvitationModal.jsx";
 
 const navbarLinks = [
   { label: "Home", href: "#home", ariaLabel: "Home" },
@@ -22,9 +21,10 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <a className="w-10 " href="#home" aria-label="Home">
-            <div className="logo">
-              <img src={logo} alt="logo" className="w-52" />
+          <a className="navbar-link" href="#home" aria-label="Home">
+            <div className="flex justify-start items-center grow basis-0">
+              <div className="w-full font-extrabold text-2xl md:text-4xl bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+                MEDIA SA
               </div>
             </div>
           </a>
@@ -49,12 +49,14 @@ export const Navbar = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-          exit={{ opacity: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3 }}
+            exit={{ opacity: 0 }}
         >
-          <div className="grow basis-0 justify-end hidden lg:flex mr-36"></div>
+          <div className="grow basis-0 justify-end hidden lg:flex mr-36">
+
+          </div>
         </motion.div>
         <div
           className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-customDarkBg2"
