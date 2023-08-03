@@ -21,7 +21,7 @@ export const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
-        ></motion.div>
+        >
           <a className="w-10 " href="#home" aria-label="Home">
             <div className="logo">
               <img src={logo} alt="logo" className="w-52" />
